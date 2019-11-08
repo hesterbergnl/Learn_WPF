@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:EventHandling"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Name ="pnlEventHandling" MouseDown="pnlEventHandling_MouseDown" Background="Aqua">
+        <Label>Click me anywhere!</Label>
     </Grid>
 </Window>
